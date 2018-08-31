@@ -103,10 +103,10 @@ if __name__ == '__main__':
 
     
     paramparser = ParameterParser()
-    param = paramparser.parseXML('E:/Data/Vmware Win7/ProjectTransform/H8_1000m_Proj.xml')
-    param.OutputPath = 'E:/Data/Vmware Win7/proj/'
-    # param = paramparser.parseXML('z:/ProjectTransform/H8_500m_Proj.xml')
-    # param.OutputPath = 'z:/proj/'
+    # param = paramparser.parseXML('E:/Data/Vmware Win7/Project/ProjectTransform/H8_1000m_Proj.xml')
+    # param.OutputPath = 'E:/Data/Vmware Win7/proj/'
+    param = paramparser.parseXML('z:/Project/ProjectTransform/H8_1000m_Proj.xml')
+    param.OutputPath = 'z:/proj/'
 
     # ProcessProj(param, 2000,False)
     #
@@ -119,8 +119,8 @@ if __name__ == '__main__':
     # p2 = multiprocessing.Process(target = ProcessProj, args = (param,500,False,))
     # p2.start()
     Projstring = '20180829_0310'
-    # L1FilePath = 'z:/proj/'
-    L1FilePath = 'E:/Data/Vmware Win7/proj/'
+    L1FilePath = 'z:/proj/'
+    # L1FilePath = 'E:/Data/Vmware Win7/proj/'
     paramFilePath = L1FilePath
     ProcessProj(param, 1000,False)
     # auxfile = '/FY4COMM/FY4A/COM/PRJ/'+ param.GetParamDescription() + '_'+sys.argv[3]+'_'+param.ProjectTaskName+'.HDF'

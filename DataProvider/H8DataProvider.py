@@ -95,20 +95,17 @@ class H8Dataprovider(DataProvider):
         self.__dataRes = int(self.GetParameter().ProjectResolution)
         
         if self.__dataRes == 2000 :
-            self.__dataRes = 2000
             self.__dataWidthAndHeight = 5500
             self.__refWidth = 8100
             # self.__obsDataCount = 16
             # self.__BandWaveLenthList = ['0046', '0051', '0064', '0086', '0160', '0230', '0390', '0620', '0700', '0730',
             #                         '0860','0960','1040', '1120', '1230', '1330']
         elif self.__dataRes == 500:
-            self.__dataRes = 500
             self.__dataWidthAndHeight = 22000
             self.__refWidth = 32400
             # self.__obsDataCount = 1
             # self.__BandWaveLenthList = ['0064']
         elif self.__dataRes == 1000:
-            self.__dataRes = 1000
             self.__dataWidthAndHeight = 11000
             self.__refWidth = 16200
         self.__BandWaveLenthList = self.GetParameter().BandWaveLengthList
