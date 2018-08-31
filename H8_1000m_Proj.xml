@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ProjMethod="ConformalProjection" ProjFormat="hdf" Satellite="FY4AAGRI ">
+  <ProjInfor>
+    <ProjFormat>1</ProjFormat>
+    <ProjTaskName>PRJ2</ProjTaskName>
+    <ProjMethod>latlong</ProjMethod>
+    <Resolution>1000</Resolution>
+    <StandardLon>0</StandardLon>
+    <CentralLon>145</CentralLon>
+  </ProjInfor>
+  <ProjRange>
+    <MaxLon>140</MaxLon>
+    <MinLon>70</MinLon>
+    <MaxLat>60</MaxLat>
+    <MinLat>0</MinLat>
+  </ProjRange>
+  <BandsToProj>
+    <BandWaveLength>0046,0051,0064,0086</BandWaveLength>
+  </BandsToProj>
+</ProjConfig>
